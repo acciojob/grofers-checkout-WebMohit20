@@ -14,6 +14,7 @@
         table.append(tr);
         let td = document.createElement("td");
         // tr.append(td);
+		td.id = "ans"
         td.innerHTML = sum;
         tr.append(td);
     };
